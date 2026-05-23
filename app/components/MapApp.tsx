@@ -147,6 +147,7 @@ function cloneOverrides(o: Overrides): Overrides {
     global: { ...o.global },
     density: o.density,
     buildings3d: o.buildings3d,
+    roadDetail: o.roadDetail,
   };
 }
 
